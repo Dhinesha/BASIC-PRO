@@ -1,0 +1,19 @@
+C
+#include <stdio.h>
+int main(){
+    int d;
+    unsigned long long factorial =1;
+    printf("Enter a no:\n");
+    scanf("%d",&d);
+    if(d<0)
+     printf("fact is not defined for negative no\n");
+     else {
+         for(int i=1;i<=d;i++)
+         factorial *= i;
+         }
+         printf("factorial of %d = %llu\n",d,factorial);
+    }
+
+DEIFF:UNSIGNED LONG LONG FACTORIAL BIT =64
+      INT,LONG=32-DATATYPE=LLU
+    
