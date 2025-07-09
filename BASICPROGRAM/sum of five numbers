@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+    int d,sum=0;
+    printf("Enter a number: ");
+    for(int i=0;i<5;i++){
+        scanf("%d",&d);
+        sum+=d;
+    }
+    printf("%d",sum);
+    return 0;
+}
+input formate: 1 2 3 4 5 
+o/p: 15
