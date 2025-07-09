@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main() {
+    int d, c = 0;
+    printf("Enter a number: ");
+    scanf("%d", &d);
+    if (d <= 1) {
+        printf("NOT A PRIME NUMBER\n");
+    } else {
+        for (int i = 2; i <= d / 2; i++) {
+            if (d % i == 0) {
+                c = 1;
+            }
+        }
+        if (c == 0) {
+            printf("PRIME NUMBER\n");
+         } else {
+            printf("NOT A PRIME NUMBER\n");
+        }
+    }
+    return 0;
+}
+ERROR FACED:STATEMENT PARANTHESES
