@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+    int n,fn=0,sn=1,nextno;
+    printf("Enter a number: ");
+    scanf("%d",&n);
+    printf("Fibanocci series is : \n");
+    for(int i=1;i<=n;i++){
+        printf("%d",fn);
+        nextno=fn+sn;
+        fn=sn;
+        sn=nextno;
+        
+    }return 0;
+}
