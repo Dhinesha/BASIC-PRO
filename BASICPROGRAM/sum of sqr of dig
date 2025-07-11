@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main(){
+    int sn,dig,sum=0;
+    printf("enter a number: ");
+    scanf("%d",&sn);
+    int temp=sn;
+    while(temp>0){
+        dig=temp%10;
+        sum+=dig*dig;
+        temp/=10;
+    }
+    printf("sn res: %d\n",sum);
+    return 0;
+}
+ip:234(each number has ben square after give an solution)
+op:29
